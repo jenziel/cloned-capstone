@@ -43,6 +43,7 @@ function App() {
           proficiency: 5,
         },
       ],
+      profile_picture: null,
     },
   });
   const [serverError, setServerError] = useState<ServerError | string>("");
